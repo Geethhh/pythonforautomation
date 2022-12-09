@@ -28,7 +28,7 @@ def test_voteeligibility():
 @pytest.mark.parametrize('num1,num2,num3,add,diff,pro,quo',
                         [
                             (10,20,30,60,-10,200,0),
-                            (-10,-20,-30,-60,10,200,0),
+                            (-10,-20,-30,-60,-10,200,0),
                             (0,0,0,0,0,0,0)
                         ])
 
